@@ -17,7 +17,7 @@ Officer.o: Officer.cpp
 Supervisor.o: Supervisor.cpp
 	 $(CC) $(CFLAGS) -c Supervisor.cpp #compiles Supervisor
 clean:
-	$(RM) main *.o *~
-	$(RM) Employee *.o *~
-	$(RM) Officer *.o *~
-	$(RM) Supervisor *.o *~
+	$(RM) main *.o *~ #cleans main.o
+	$(RM) Employee *.o *~ #cleans Employee.o
+	$(RM) Officer *.o *~ #cleans Officer.o
+	$(RM) Supervisor *.o *~ #cleans Supervisor.o
